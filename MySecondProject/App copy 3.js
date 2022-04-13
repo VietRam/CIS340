@@ -11,7 +11,7 @@ export default function App() {
       <TextInput
       style={{
         height:40,
-        borderColor:"gray",
+        borderColor: "gray",
         borderWidth: 1
       }}
       />
