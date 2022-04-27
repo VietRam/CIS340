@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, View, SectionList } from 'react-native';
 
 
-export default StatesApp = () => {
+export default function StatesApp(){
   return(
     <View style={{flex: 1, paddingTop: 22}}>
         <SectionList

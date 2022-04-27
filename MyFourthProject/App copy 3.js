@@ -2,15 +2,16 @@ import React from 'react';
 import { Text, Image, ScrollView } from 'react-native';
 
 
-const dog = {
-  url: 'https://static01.nyt.com/images/2021/09/14/science/07CAT-STRIPES/07CAT-STRIPES-mediumSquareAt3X-v2.jpg',
-  width: 64,
-  height: 64
-};
 
-export default MyScrollViewApp = () =>( 
+export default function MyScrollViewApp() {
+  
+  const dog = {
+    uri: 'https://static01.nyt.com/images/2021/09/14/science/07CAT-STRIPES/07CAT-STRIPES-mediumSquareAt3X-v2.jpg',
+    width: 64,
+    height: 64
+  }
     
-    
+  return(
       <ScrollView>
         <Text Style={{fontsize: 80}}> Try to scoll down</Text>
         <Image source={require('./assets/cat.jpg')} style={{width: 80, height: 80}} />
@@ -55,6 +56,9 @@ export default MyScrollViewApp = () =>(
         <Image source={dog} />
       </ScrollView>
   );
+
+}
+
 
 
     
